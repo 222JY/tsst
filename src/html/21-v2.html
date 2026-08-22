@@ -1,0 +1,151 @@
+<!-- ============================================================
+     REALITY 02 — ONKI ∴ NULL
+     ============================================================ -->
+<section class="world" id="v2" aria-label="Onki Null">
+  <canvas id="v2-gl"></canvas>
+  <div class="v2-veil"></div>
+
+  <header class="v2-top">
+    <a class="v2-logo" data-sec="0"><span class="lgbox"><i>ONKI</i><i>INC.</i></span></a>
+    <nav class="v2-nav">
+      <button data-sec="0"><svg class="ic tiny"><use href="#ic-home"/></svg><span>HOME</span></button>
+      <button data-sec="2"><svg class="ic tiny"><use href="#ic-film"/></svg><span>FILM + TV</span></button>
+      <button data-sec="3"><svg class="ic tiny"><use href="#ic-game"/></svg><span>INTERACTIVE</span></button>
+      <button data-sec="4"><svg class="ic tiny"><use href="#ic-star"/></svg><span>VFX</span></button>
+      <button data-sec="5"><svg class="ic tiny"><use href="#ic-quest"/></svg><span>WHAT IF?</span></button>
+      <button data-sec="6"><svg class="ic tiny"><use href="#ic-mail"/></svg><span>CONTACT</span></button>
+    </nav>
+  </header>
+
+  <ul class="v2-dots" id="v2-dots"></ul>
+
+  <div class="scroller v2-scroll" id="v2-scroll">
+
+    <!-- 1 · HERO -->
+    <section class="v2-sec v2-hero" data-i="0">
+      <div class="v2-hero-in">
+        <p class="v2-kicker"><i></i>ORIGINAL STORIES / SINCE 2023</p>
+        <h1 class="v2-h1"><span class="ln">WORLDS</span><span class="ln it">for</span><span class="ln">SCREENS</span></h1>
+        <p class="v2-lede">Onki Inc. is a production company working across live-action film, animation and video games.</p>
+      </div>
+      <button class="v2-descend" data-scrolldown><i></i><span>SCROLL</span></button>
+      <div class="v2-hero-bar">
+        <span id="v2-tc">00:00:00:00</span><span class="dv"></span><span>GLOBAL@ONKI.TV</span><span class="dv"></span><span class="rec"><i></i>REC</span>
+      </div>
+    </section>
+
+    <!-- 2 · ABOUT -->
+    <section class="v2-sec v2-about" data-i="1">
+      <div class="v2-wrap">
+        <span class="v2-num">01 / ABOUT</span>
+        <p class="v2-statement">
+          <span class="w">Onki</span> <span class="w">Inc.</span> <span class="w">is</span> <span class="w">a</span>
+          <span class="w hi">production</span> <span class="w hi">company</span>
+          <span class="w">creating</span> <span class="w serif">worlds</span> <span class="w">for</span> <span class="w out">screens.</span>
+        </p>
+        <div class="v2-cols">
+          <div><h4>FILM + TV</h4><p>We produce and co-produce original live action and animated fiction across feature-length, episodic and short-form.</p><button class="v2-link" data-sec="2">See the slate →</button></div>
+          <div><h4>INTERACTIVE</h4><p>We develop, produce and publish video games across all platforms — and the strange little things in between.</p><button class="v2-link" data-sec="3">Enter the arcade →</button></div>
+          <div><h4>ORIGIN</h4><p>Founded to make the films and games we kept describing to each other and never seeing get made. Original fiction since 2025.</p><button class="v2-link" data-sec="6">Say hello →</button></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3 · FILM + TV -->
+    <section class="v2-sec v2-film" data-i="2">
+      <div class="v2-wrap">
+        <span class="v2-num">02 / FILM + TV</span>
+        <h2 class="v2-h2 giant">FILM<i>+</i>TV</h2>
+        <div class="v2-index" id="v2-index"></div>
+        <div class="v2-preview" id="v2-preview"><div class="pv-fld"></div><div class="pv-sc"></div><div class="pv-meta"><b>HOVER A TITLE</b><em>media slot · 16:9</em></div></div>
+      </div>
+    </section>
+
+    <!-- 4 · INTERACTIVE -->
+    <section class="v2-sec v2-play" data-i="3">
+      <div class="v2-wrap">
+        <span class="v2-num">03 / INTERACTIVE</span>
+        <h2 class="v2-h2">WE DEVELOP, PRODUCE<br>AND PUBLISH <i>VIDEO GAMES</i><br>ACROSS ALL PLATFORMS.</h2>
+        <div class="v2-arcade">
+          <div class="v2-cab">
+            <div class="cab-scr"><canvas id="v2-game"></canvas><div class="cab-glass"></div><div class="cab-crt"></div></div>
+            <div class="cab-ctl">
+              <button class="v2-btn solid" data-gk="start">PRESS START</button>
+              <div class="cab-keys"><button data-gk="left">◀</button><button data-gk="a">JUMP</button><button data-gk="down">DUCK</button><button data-gk="right">▶</button></div>
+            </div>
+          </div>
+          <div class="v2-cabtext">
+            <h4>MR. ONKI &amp; DOG</h4>
+            <p>A pocket runner starring our mascot and his extremely loyal, extremely lumpy dog. Built as a test bed for the studio's realtime pipeline.</p>
+            <ul class="v2-specs"><li><span>ENGINE</span><b>IN-HOUSE</b></li><li><span>PLATFORM</span><b>WEB / HANDHELD</b></li><li><span>STATUS</span><b>PLAYABLE</b></li></ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5 · VFX -->
+    <section class="v2-sec v2-vfx" data-i="4">
+      <div class="v2-wrap">
+        <span class="v2-num">04 / VFX</span>
+        <h2 class="v2-h2">IN-HOUSE <i>VISUAL EFFECTS</i>,<br>COMPOSITING, 3D<br>AND FINISHING.</h2>
+        <div class="v2-tick"><div class="v2-tick-in"><span>PREVIS ✳ SIMULATION ✳ COMPOSITING ✳ GRADE ✳ REALTIME ✳ CG CHARACTER ✳ MATTE ✳ CLEANUP ✳ TITLES ✳&nbsp;</span><span>PREVIS ✳ SIMULATION ✳ COMPOSITING ✳ GRADE ✳ REALTIME ✳ CG CHARACTER ✳ MATTE ✳ CLEANUP ✳ TITLES ✳&nbsp;</span></div></div>
+        <div class="v2-bars" id="v2-bars"></div>
+      </div>
+    </section>
+
+    <!-- 6 · WHAT IF -->
+    <section class="v2-sec v2-what" data-i="5">
+      <div class="v2-wrap center">
+        <span class="v2-num">05 / WHAT IF?</span>
+        <h2 class="v2-whatq" id="v2-whatq">WHAT IF THIS EMAIL<br>STARTS SOMETHING?</h2>
+        <button class="v2-btn ghost" id="v2-whatbtn">ASK ANOTHER →</button>
+      </div>
+    </section>
+
+    <!-- 7 · OUTRO -->
+    <section class="v2-sec v2-outro" data-i="6">
+      <div class="v2-wrap center">
+        <span class="v2-num">06 / CONTACT</span>
+        <p class="v2-outro-lede">Say hello. Tell us your wildest idea,<br>your deepest secret, or just what you've been up to.</p>
+        <a class="v2-mail" href="mailto:hello@onki.tv"><span data-t="HELLO@ONKI.TV">HELLO@ONKI.TV</span></a>
+        <div class="v2-outro-meta"><span>ONKI INC.</span><span>ORIGINAL FICTION SINCE 2025</span><span>ALL RIGHTS RESERVED</span></div>
+      </div>
+    </section>
+  </div>
+
+  <!-- fixed bottom bar -->
+  <div class="v2-bottom">
+    <span class="bb-txt">A selected range of our Film &amp; TV production and co-productions.</span>
+    <button class="bb-b" data-act="invert2">INVERT COLOURS</button>
+    <button class="bb-b" data-act="shuffle2">RANDOMISE</button>
+    <span class="bb-sp"></span>
+    <span class="bb-txt dim">© ONKI INC.</span>
+    <a class="bb-b" href="mailto:hello@onki.tv">HELLO@ONKI.TV</a>
+    <button class="bb-b spk" id="v2-spk"><svg class="ic tiny"><use href="#ic-spk"/></svg></button>
+    <span class="bb-clock" id="v2-clock">--:--</span>
+  </div>
+
+  <!-- ============ PLAYER 02 — SIGNAL HUD ============ -->
+  <div class="fm2" id="fm2" data-open="0">
+    <button class="fm2-tab" id="fm2-tab"><span class="fm2-eq"><i></i><i></i><i></i><i></i><i></i></span><b>ONKI FM</b><em id="fm2-tabtitle">SOMEDAY</em></button>
+    <div class="fm2-body">
+      <div class="fm2-left">
+        <div class="fm2-now">NOW PLAYING</div>
+        <div class="fm2-title" id="fm2-title">SOMEDAY</div>
+        <div class="fm2-by"><span id="fm2-by">KL3</span> · <span id="fm2-prof">ANALOG / TAPE</span></div>
+      </div>
+      <div class="fm2-mid">
+        <canvas class="fm2-wave" id="fm2-wave"></canvas>
+        <div class="fm2-scrub" id="fm2-scrub"><i id="fm2-fill"></i><b id="fm2-head"></b></div>
+        <div class="fm2-times"><span id="fm2-t">00:00</span><span id="fm2-d">01:20</span></div>
+      </div>
+      <div class="fm2-right">
+        <button data-fm="prev" title="Previous">⏮</button>
+        <button data-fm="toggle" class="big" id="fm2-toggle" title="Play / pause">▶</button>
+        <button data-fm="next" title="Next">⏭</button>
+        <div class="fm2-vol"><input type="range" id="fm2-vol" min="0" max="100" value="72"></div>
+      </div>
+      <ol class="fm2-list" id="fm2-list"></ol>
+    </div>
+  </div>
+</section>
