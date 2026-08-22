@@ -1,0 +1,12 @@
+/* ============================================================
+   ONKI BOY — 3D console
+   ============================================================ */
+.gb3d{flex:1;min-height:260px;width:100%;position:relative;overflow:hidden;border:2px solid;
+  border-color:#060608 #9aa0aa #9aa0aa #060608;background:radial-gradient(80% 80% at 50% 38%,#1a2136,#04050a)}
+.gb3d canvas{width:100%!important;height:100%!important;display:block;cursor:grab}
+.gb3d canvas:active{cursor:grabbing}
+.gb-src{position:absolute!important;left:-9999px;top:-9999px;width:160px;height:144px;image-rendering:pixelated}
+.gb3d-ctl{flex:none;display:flex;align-items:center;justify-content:space-between;gap:10px;width:100%;padding:12px 6px 4px}
+.gb3d-mid{display:flex;flex-direction:column;gap:6px;align-items:center}
+.gamebody{padding:12px}
+@media(max-width:860px){.gb3d{min-height:200px}}
